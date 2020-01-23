@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #000;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  color: #707070;
+  font-size: 18px;
+  font-family: STSong, serif;
+}
+nav li {
+  width: 88px;
+  list-style: none;
+  text-align: center;
+  line-height: 2.6;
+}
+nav li:last-of-type {
+  justify-self: self-end;
+}
+nav li.highlight {
+  background-color: #fff;
+}
+.jumbotron {
+  background-color: #1f1f52;
+  height: 283px;
+}
+.row {
+  margin: auto;
+  width: 700px
+}
+.jumbotron h1 {
+    font-family: Futura;
+    font-size: 56px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 4px;
+    text-align: left;
+    color: #707070;
+    padding-top: 50px;
+    margin: 0;
+}
+.jumbotron p {
+  padding-top: 90px;
+  text-align: right;
+  font-family: STSong;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: right;
+  color: #707070;
+  margin-right: 61px;
+}
+.jumbotron p::before {
+  content: "";
+  display: inline-block;
+  margin-right: 16px;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+}

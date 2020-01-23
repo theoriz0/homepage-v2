@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>daniel zhang</title>
+  <link rel="canonical" href="http://theoriz.xyz">
+  <!-- Favicons -->
+  
+  <!-- Style when css unavailable -->
+  <style>
+    body {
+      margin: 0px;
+    }
+    main {
+      max-width: 700px;
+      margin: auto;
+      padding: 0 1em;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.1em;
+    }
+    p {
+      margin: 0;
+    }
+    nav {
+      display: none;
+    }
+    .card {
+      border: 1px solid black;
+      width: 300px;
+    }
+    .album {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .album img {
+      width: inherit;
+    }
+    footer {
+      text-align: center;
+      background-color: #666;
+
+    }
+    @media screen and (max-width: 699px) {
+      h1 {
+        font-size: 2.5em;
+      }
+      .album {
+        display: block;
+      } 
+      .card {
+        margin-bottom: 1em;
+      }
+    }
+    @media screen and (min-width: 700px) and (min-height: 686px) {
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  </style>
+  <!-- CSS -->
+
+</head>
+<body>
+  <!-- nav bar -->
+  <header>
+    <nav>
+      <ul>
+        <li class="highlight">Intro</li>
+        <li>Works</li>
+        <li>Links</li>
+      </ul>
+      <ul>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </header>
+  <section class="jumbotron">
+    <div class="row">
+      <h1>daniel zhang</h1>
+      <p>Web. UX. Design.</p>
+    </div>
+  </section>
+  <main>
+    <!-- jumbotron -->
+
+    <!-- album -->
+    <section class="works">
+      <h2>Works</h2>
+      <div class="album">
+        <div class="card">
+          <img src="screenshot-homepage.png" alt="Homepage Screenshot">
+          <p>The page you're viewing now.</p>
+        </div>
+        <div class="card">
+          <img src="http://via.placeholder.com/480x288" alt="Placeholder">
+        </div>
+      </div>
+    </section>
+    <!-- links -->
+    <section class="links">
+      <h2>Links</h2>
+      <ul>
+        <li>日语语法学习指南（转载）</li>
+      </ul>
+    </section>
+    <section class="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li><span>ig:&nbsp;</span><a href="">zhang_00710</a></li>        
+        <li><span>wechat:&nbsp;</span>zgh_lacuna</li>
+        <li><span>twitter:&nbsp;</span><a href="">dontcynic</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>theoriz.xyz 2020 <a href="http://www.beian.miit.gov.cn/">粤ICP备19139575</a></p>
+  </footer>
+  <script src="app.bundle.js"></script>
+</body>
+</html>
